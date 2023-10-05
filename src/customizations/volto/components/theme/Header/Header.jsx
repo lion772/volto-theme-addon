@@ -4,17 +4,7 @@
  */
 
 import React, { Component } from 'react';
-import {
-  Header as SemanticHeader,
-  Container,
-  Divider,
-  Segment,
-  Image,
-  Dropdown,
-  Menu,
-  Input,
-  Grid,
-} from 'semantic-ui-react';
+import { Header as SemanticHeader, Segment, Grid } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
@@ -25,9 +15,6 @@ import {
   Navigation,
   SearchWidget,
 } from '@plone/volto/components';
-import FullScreenImage from '../../../../components/Blocks/AppHeader';
-import View from '../../../../../../../../components/Blocks/Hero/View';
-import AppHeader from '../../../../components/Blocks/AppHeader';
 
 /**
  * Header component class.
