@@ -37,10 +37,10 @@ import {
   Segment,
   Image,
 } from 'semantic-ui-react';
-import WorkArea from '../../../../../../../../components/theme/WorkArea/WorkArea';
-import FullEditorial from '../../../../../../../../components/theme/FullEditorial/FullEditorial';
-import About from '../../../../../../../../components/theme/About/About';
-import NumberDisplay from '../../../../../../../../components/theme/NumberDisplay/NumberDisplay';
+import WorkArea from '../../../../../components/theme/WorkArea/WorkArea';
+import FullEditorial from '../../../../../components/theme/FullEditorial/FullEditorial';
+import About from '../../../../../components/theme/About/About';
+import NumberDisplay from '../../../../../components/theme/NumberDisplay/NumberDisplay';
 
 /**
  * View container class.

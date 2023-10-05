@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavItem from './NavItem';
 import { Dropdown, Icon, Label, Menu, Modal } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
-import DropdownContent from '../../../../../../../../components/theme/Modal/DropdownContent';
+import DropdownContent from '../../../../../components/theme/Modal/DropdownContent';
 
 const NavItems = ({ items, lang }) => {
   const [isPanelOpen, setPanelOpen] = useState(false);
